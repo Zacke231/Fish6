@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Konsten att göra en hemsida</title>
+
+</head>
+<body class="backbody">
+    <header class="header">
+        <a class="logo"> <img src="bilder/logga-removebg-preview.png" alt="logga" class="bildlogga"></a>
+        <div class="navbar">
+            <a href="index.html">Start</a>
+            <a href="Lagar.html">Lagar</a>
+            <a href="Taggar.html">Taggar</a>
+            <a href="Css.html">Css</a>
+            <a href="Css-2.html">Css-2</a>
+            <a href="Bild.html">bild</a>
+        </div>
+        <div>
+          <img src="bilder/Hamburgare.png" onclick="openHamburgerMenu(true)" class="hamburgerIcon" alt="Menu">
+          <div class="hamburgerMenu">
+            <img src="bilder/Kryss.png" onclick="openHamburgerMenu(false)" class="HamburgerCross" alt="Close">
+            <ul>
+                <li><a href="index.html" class="Line">Start</a></li>
+                <li><a href="Lagar.html">Lagar</a></li>
+                <li><a href="Taggar.html">Taggar</a></li>
+                <li><a href="Css.html">Css</a></li>
+                <li><a href="Css-2.html">Css-2</a></li>
+                <li><a href="Bild.html">bild</a></li>  
+            </ul>
+        </div>
+      </div>
+
+
+
+    </header>
+    <div class="cardbox">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h1>Vad är Color attributen i css?</h1>
+                <img src="click-tap-svgrepo-com.svg" alt="click symbol" class="symbol">
+
+              </div>
+              <div class="flip-card-back">
+                <h1>Bra med färg</h1> 
+                <p class="färgtext">Color-attributet används för att ange textfärgen för ett element så som för den här texten. Du kan använda fördefinierade färgnamn, hexadecimala värden, RGB, RGBA, HSL, HSLA, och även currentColor som refererar till elementets nuvarande textfärg</p> 
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h1>Vad är border attributen i css?</h1>
+                <img src="click-tap-svgrepo-com.svg" alt="click symbol" class="symbol">
+
+              </div>
+              <div class="flip-card-back">
+                <h1>Trevligt med ram</h1> 
+                <p>Border-attributet är en samlingsattribut som definierar bredden, stilen och färgen på en elements ram. Det kan inkludera värden som solid, dotted, dashed, och andra för att ange ramens stil</p> 
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h1>Vad är @media tagen i css?</h1>
+                <img src="click-tap-svgrepo-com.svg" alt="click symbol" class="symbol">
+
+              </div>
+              <div class="flip-card-back">
+                <h1>Trevligt att kunna se på mindre skärm</h1> 
+                <p>@media-taggen är en regel som används i mediafrågor för att tillämpa olika stilar beroende på enhetens typ eller skärmens egenskaper, som bredd och höjd. Detta är användbart för att skapa responsiv design</p> 
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Varför man inte ska använda vw</h1>
+              <img src="click-tap-svgrepo-com.svg" alt="click symbol" class="symbol">
+
+            </div>
+            <div class="flip-card-back">
+              <h1>Använd inte</h1> 
+              <p>Att använda vw (viewport width) kan vara problematiskt eftersom det inte tar hänsyn till användarens zoomnivå eller andra visningsinställningar som kan påverka läsbarheten. Det kan leda till designproblem, särskilt på mobila enheter där skärmstorleken är begränsad och användaren kan behöva zooma in för att läsa texten bekvämt. Dessutom kan användning av vw för textstorlek orsaka problem med text som inte skalas korrekt och blir för stor eller för liten jämfört med resten av elementen på sidan.</p> 
+            </div>
+          </div>
+      </div>
+        
+
+
+    </div>
+
+
+    <footer>
+        <p>Gjord av Zackarias Norell</p>
+        <p>Några frågor eller problem kontakta mig gärna på mail: <a href="mailto:zackarias.norell@elev.ntig.se">mail</a></p>
+
+    </footer>
+</body>
+</html>
